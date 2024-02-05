@@ -1,5 +1,4 @@
-const { Customer } = require("./Customer")
-
+const Customer = require("./Customer")
 class Auth {
     constructor() {
         this.customers = []
@@ -10,15 +9,14 @@ class Auth {
     }
 
     login(email) {
+        let rtn = null
         this.customers.forEach((customer) => {
             if (customer.email === email) {
-                return customer
+                rtn = customer
             }
         })
+        return rtn
     }
 }
 
-
-module.exports = {
-    Auth
-}
+module.exports = Auth

@@ -1,9 +1,10 @@
 // Import Classes Here
 
-import { Cart } from "./classes/Cart"
-import { Product } from "./classes/Product.js"
-import { Customer } from "./classes/Customer"
-import { Auth } from "./classes/Auth"
+const Product = require("./classes/Product")
+const Cart = require("./classes/Cart")
+const Customer = require("./classes/Customer")
+const Auth = require("./classes/Auth")
+
 
 
 // DO NOT EDIT BELOW THIS LINE

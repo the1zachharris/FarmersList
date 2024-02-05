@@ -3,19 +3,14 @@ class Cart {
         this.products = [];
         this.total = 0;
     }
-    addProduct(Product, total) {
+    addProduct(Product) {
         this.products.push(Product);
-        this.total += total;
+        this.total += Product.price;
     }
-    removeProduct(Product, total) {
-        this.products.forEach((item, index) => {
-            if (item === Product) {
-                this.products.splice(index, 1);
-                this.total -= total
-            }
-        })
+    removeProduct(product) {
+        this.total -= this.products.splice(product, 1)[0].price
     }
 }
 
 
-module.exports = { Cart };
+module.exports = Cart 
