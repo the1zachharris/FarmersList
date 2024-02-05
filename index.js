@@ -1,12 +1,5 @@
 // Import Classes Here
-
-
-
-
-
-
-
-
+const Product = require('classes/Product.js')
 
 
 // DO NOT EDIT BELOW THIS LINE
