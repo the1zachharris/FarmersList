@@ -1,5 +1,14 @@
 // Import Classes Here
-import Product from 'classes/Product.js'
+
+import { Product } from "./classes/Product.js"
+import { Customer } from "./classes/Customer"
+import { Auth } from "./classes/Auth"
+
+
+
+
+
+
 
 
 // DO NOT EDIT BELOW THIS LINE
