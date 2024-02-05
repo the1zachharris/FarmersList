@@ -1,14 +1,9 @@
 // Import Classes Here
 
+import { Cart } from "./classes/Cart"
 import { Product } from "./classes/Product.js"
 import { Customer } from "./classes/Customer"
 import { Auth } from "./classes/Auth"
-
-
-
-
-
-
 
 
 // DO NOT EDIT BELOW THIS LINE
