@@ -1,4 +1,6 @@
 // Import Classes Here
+
+import { Product } from "./classes/Product.js"
 import { Customer } from "./classes/Customer"
 import { Auth } from "./classes/Auth"
 
