@@ -1,4 +1,4 @@
-class Customer extends Cart {
+class Customer {
     constructor(name,email,shippingAddress) {
         this.name = name
         this.email = email
